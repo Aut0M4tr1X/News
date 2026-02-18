@@ -1,0 +1,42 @@
+[
+  {
+    "title":"השקה פורצת דרך בתחום הבינה המלאכותית",
+    "path":"categories/tech/example.md",
+    "category":"טכנולוגיה",
+    "date":"2 שעות",
+    "excerpt":"חברת סטארטאפ חשפה מודל חדש שמבטיח לשנות את הדרך בה אנו מתקשרים עם מערכות חכמות.",
+    "image":"https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop&crop=faces"
+  },
+  {
+    "title":"גילוי מקורי בחקר החלל",
+    "path":"categories/science/example.md",
+    "category":"מדע",
+    "date":"אתמול",
+    "excerpt":"צוות מדענים מצא ראיות חדשות לשינויים במערכת כוכבי לכת רחוקה.",
+    "image":"https://images.unsplash.com/photo-1523978591478-c753949ff840?q=80&w=1600&auto=format&fit=crop&crop=faces"
+  },
+  {
+    "title":"שוק ההשקעות בראי הטכנולוגיה",
+    "path":"categories/business/example.md",
+    "category":"עסקים",
+    "date":"3 ימים",
+    "excerpt":"איך חברות טכנולוגיה חדשות מעצבות את כלכלת העתיד ואיפה להשקיע נכון.",
+    "image":"https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop&crop=faces"
+  },
+  {
+    "title":"פסטיבל חדש בעיר",
+    "path":"categories/culture/example.md",
+    "category":"תרבות",
+    "date":"השבוע",
+    "excerpt":"אירועי תרבות דיגיטלית ומשתפי פעולה שמפתיעים את הקהל.",
+    "image":"https://images.unsplash.com/photo-1543007637-0a6b7dcd26d0?q=80&w=1600&auto=format&fit=crop&crop=faces"
+  },
+  {
+    "title":"תוצאות משחקים והערכות",
+    "path":"categories/sports/example.md",
+    "category":"ספורט",
+    "date":"היום",
+    "excerpt":"סקירות מקצועיות מהמשחקים שהתרחשו והניתוחים הכי חדים.",
+    "image":"https://images.unsplash.com/photo-1521412644187-c49fa049e84d?q=80&w=1600&auto=format&fit=crop&crop=faces"
+  }
+]
