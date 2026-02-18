@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>חדשות - עתידני</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Inter:wght@300;400;600;800&family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo">
+          <span class="logo-mark">ניוס</span>
+        </div>
+        <div class="tag">חדשות עתידניות — זמן אמת</div>
+      </div>
+      <nav class="main-nav">
+        <button class="nav-toggle" aria-label="תפריט">☰</button>
+        <ul class="categories">
+          <li><a href="#" data-cat="all" class="active">הכל</a></li>
+          <li><a href="#" data-cat="tech">טכנולוגיה</a></li>
+          <li><a href="#" data-cat="science">מדע</a></li>
+          <li><a href="#" data-cat="business">עסקים</a></li>
+          <li><a href="#" data-cat="culture">תרבות</a></li>
+          <li><a href="#" data-cat="sports">ספורט</a></li>
+          <li><a href="#" data-cat="world">עולם</a></li>
+          <li><a href="#" data-cat="opinion">דעות</a></li>
+          <li><a href="#" data-cat="health">בריאות</a></li>
+          <li><a href="#" data-cat="travel">נסיעות</a></li>
+        </ul>
+      </nav>
+      <div class="actions">
+        <div class="search">
+          <input id="searchInput" type="search" placeholder="חפש מאמרים, נושאים..." aria-label="חיפוש" />
+          <button id="searchBtn" aria-label="חיפוש">🔍</button>
+        </div>
+        <button id="themeToggle" class="theme-btn" aria-label="החלף ערכת צבעים">🌗</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>ברוכים הבאים ל-נְיוֹס</h1>
+          <p>אתר חדשות מקצועי, עיצוב עתידני, סקירות עומק ועדכונים חמים.</p>
+          <div class="hero-cta">
+            <a href="#feed" class="btn primary">צפה בחדשות עכשיו</a>
+            <a href="#" class="btn ghost">הירשם לניוזלטר</a>
+          </div>
+        </div>
+        <div class="hero-visual"></div>
+      </section>
+
+      <section id="feed" class="feed">
+        <aside class="sidebar">
+          <div class="widget">
+            <h3>קטגוריות פופולריות</h3>
+            <ul>
+              <li><a href="#" data-cat="tech">טכנולוגיה</a></li>
+              <li><a href="#" data-cat="business">עסקים</a></li>
+              <li><a href="#" data-cat="science">מדע</a></li>
+              <li><a href="#" data-cat="world">עולם</a></li>
+              <li><a href="#" data-cat="opinion">דעות</a></li>
+            </ul>
+          </div>
+          <div class="widget">
+            <h3>ניוזלטר</h3>
+            <p>קבלו עדכונים ישירות לתיבה.</p>
+            <form class="subscribe" onsubmit="return false;">
+              <input placeholder="האימייל שלך" />
+              <button class="btn small">שלח</button>
+            </form>
+          </div>
+        </aside>
+
+        <div class="articles">
+          <!-- article cards -->
+          <article class="card" data-category="tech">
+            <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop&crop=faces')"></div>
+            <div class="card-body">
+              <div class="meta">טכנולוגיה • 2 שעות</div>
+              <h2 class="card-title">השקה פורצת דרך בתחום הבינה המלאכותית</h2>
+              <p class="excerpt">חברת סטארטאפ חשפה מודל חדש שמבטיח לשנות את הדרך בה אנו מתקשרים עם מערכות חכמות.</p>
+              <a class="read-more" href="#">קרא עוד →</a>
+            </div>
+          </article>
+
+          <article class="card" data-category="science">
+            <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1523978591478-c753949ff840?q=80&w=1600&auto=format&fit=crop&crop=faces')"></div>
+            <div class="card-body">
+              <div class="meta">מדע • אתמול</div>
+              <h2 class="card-title">גילוי מקורי בחקר החלל</h2>
+              <p class="excerpt">צוות מדענים מצא ראיות חדשות לשינויים במערכת כוכבי לכת רחוקה.</p>
+              <a class="read-more" href="#">קרא עוד →</a>
+            </div>
+          </article>
+
+          <article class="card" data-category="business">
+            <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop&crop=faces')"></div>
+            <div class="card-body">
+              <div class="meta">עסקים • 3 ימים</div>
+              <h2 class="card-title">שוק ההשקעות בראי הטכנולוגיה</h2>
+              <p class="excerpt">איך חברות טכנולוגיה חדשות מעצבות את כלכלת העתיד ואיפה להשקיע נכון.</p>
+              <a class="read-more" href="#">קרא עוד →</a>
+            </div>
+          </article>
+
+          <article class="card" data-category="culture">
+            <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1543007637-0a6b7dcd26d0?q=80&w=1600&auto=format&fit=crop&crop=faces')"></div>
+            <div class="card-body">
+              <div class="meta">תרבות • השבוע</div>
+              <h2 class="card-title">פסטיבל חדש בעיר</h2>
+              <p class="excerpt">אירועי תרבות דיגיטלית ומשתפי פעולה שמפתיעים את הקהל.</p>
+              <a class="read-more" href="#">קרא עוד →</a>
+            </div>
+          </article>
+
+          <article class="card" data-category="sports">
+            <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d?q=80&w=1600&auto=format&fit=crop&crop=faces')"></div>
+            <div class="card-body">
+              <div class="meta">ספורט • היום</div>
+              <h2 class="card-title">תוצאות משחקים והערכות</h2>
+              <p class="excerpt">סקירות מקצועיות מהמשחקים שהתרחשו והניתוחים הכי חדים.</p>
+              <a class="read-more" href="#">קרא עוד →</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>© 2026 נְיּוֹס — זכויות שמורות</div>
+      <div class="socials">עקבו אחרינו: <a href="#">X</a> • <a href="#">IG</a></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
